@@ -1,0 +1,42 @@
+{
+  "databaseType": "sqlite",
+  "sqlitePath": "./database/bot.sqlite",
+  "botToken": "Bot_Token",
+  "mongoURI": "MOngoDB_URI",
+  "note": "Make sure to add your bot token and mongoURI from MongoDB and also respect author for their hardwork for this project by not changing code unnecessarily.",
+  "prefix": "/",
+  "adminId": [
+    "5947023314",
+    "6550312881",
+    "5492951949"
+  ],
+  "owner": "5947023314",
+  "onlyAdmin": false,
+  "port": "3000",
+  "botName": "Yukai Bot",
+  "copyrightMark": "[ 🐉 | Yukai ]",
+  "greetNewMembers": {
+    "enabled": true,
+    "gifUrl": "https://telegra.ph/file/0f328de5109569feceff3.gif"
+  },
+  "farewellMembers": {
+    "enabled": true,
+    "gifUrl": "https://telegra.ph/file/45697c3084f929ba465f1.gif"
+  },
+  "globalapi": {
+    "samirapi": "https://apibysamir.onrender.com",
+    "pikachu": "https://www.samirxpikachu.run.place"
+  },
+  "antiReact": {
+    "enable": true,
+    "onlyAdminBot": true,
+    "reactByUnsend": {
+      "enable": true,
+      "emojis": ["❌", "🗑️"]
+    },
+    "reactByRemove": {
+      "enable": true,
+      "emoji": "🚫"
+    }
+  }
+}

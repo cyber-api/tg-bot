@@ -1,0 +1,6 @@
+{
+  "name": "Telegram Bot Control Center",
+  "description": "A modern management dashboard and SQLite/MongoDB backend runner for Telegram bot projects.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
