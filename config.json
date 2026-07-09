@@ -1,14 +1,16 @@
 {
   "databaseType": "sqlite",
   "sqlitePath": "./database/bot.sqlite",
-  "botToken": "8890388367:AAGTIQ1NT_axn8F7hylGnqO4Gq4kOh7m6LM",
+  "botToken": "Bot_Token",
   "mongoURI": "MOngoDB_URI",
   "note": "Make sure to add your bot token and mongoURI from MongoDB and also respect author for their hardwork for this project by not changing code unnecessarily.",
   "prefix": "/",
   "adminId": [
-    "6585993078"
+    "5947023314",
+    "6550312881",
+    "5492951949"
   ],
-  "owner": "6585993078",
+  "owner": "5947023314",
   "onlyAdmin": false,
   "port": "3000",
   "botName": "Yukai Bot",

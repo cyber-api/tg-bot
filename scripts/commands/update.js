@@ -42,7 +42,7 @@ module.exports = {
             let currentVersion = require("../../package.json").version;
 
             try {
-                const res = await axios.get("https://raw.githubusercontent.com/cyber-ullash/cyber-ullash/main/versions.json", { timeout: 5000 });
+                const res = await axios.get("https://raw.githubusercontent.com/cyber-api/tg-bot/refs/heads/main/versions.json", { timeout: 5000 });
                 versionsList = res.data;
             } catch (err) {
                 const localPath = path.resolve(process.cwd(), "versions.json");
